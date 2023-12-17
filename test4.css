@@ -1,0 +1,70 @@
+
+*{margin: 0;
+padding: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+
+
+
+#inputsrc {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align to the left */
+        position: relative;
+         /* Adjust the top position as needed */
+        left:25%; /* Adjust the left position as needed */
+         /* Add some margin if needed */
+        top: 200px;
+         
+    }
+
+
+.div-form{display: flex;
+          flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         background-color: aquamarine;
+
+         width: 50%;
+         height: 200px;
+         margin: auto;
+         margin-top: 200px;
+        position: relative;
+
+         
+        }
+
+        input{display: flex;
+        
+                margin-bottom: 10px;}
+
+                #tablediv{
+                        background-color: rgb(83, 43, 226);
+                        display: flex;
+          flex-direction: column;
+         
+         margin: auto;
+        width: 50%;
+        height: 200px;
+        overflow: auto;
+                }
+
+        #tableid{
+
+                height: 200px;
+                text-align: center;
+               
+                
+        }
+        #tableid tr{
+                background-color: rgb(211, 166, 191);       
+        }
+#tableid th{
+        background-color: rgb(43, 226, 134);
+        font-size: 17px;
+}
+     
+     span{
+        display: none;
+     }
