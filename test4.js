@@ -1,4 +1,4 @@
-//moomigt
+//moomigtyu
 var isupdate = false;
 var record = '';
 var body = '';
